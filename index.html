@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/js-style.css">
+    <script defer src="js/script.js"></script>
+    <title>Homework MOD_4</title>
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1 class="header__nameSite">NewsTronic </h1>
+        <img class="header__logo js-header__logo" src="https://i.ibb.co/QXwjB8N/Logo-mod3.png" alt="Logo">
+        <button class="header__button js-header__button">Pozycja Logo</button>
+
+        <nav class="navigation">
+            <ul class="navigation__orderlist">
+                <li><a class="navigation__link" href="#sectionAuthor">Autor strony</a></li>
+                <li><a class="navigation__link" href="#sectionTable">Tabela</a></li>
+                <li><a class="navigation__link" href="#sectionContact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" id="sectionAuthor">
+            <h2 class="section__heading">O autorze strony</h2>
+
+            <p class="pharagraph__authorDescription">Nazywam się <strong>Łukasz Duszak</strong>. Jestem inżynierem
+                informatyki. </p>
+            <p class="pharagraph__authorDescription">
+                Jestem autorem strony NEWS TECH. Wymyślona przeze mnie nazwa strony oznacza urządzenia
+                najnowszej technologii typu <strong>Smartfony i komputery(PC i laptop)</strong>.
+            </p>
+        </section>
+
+        <section class="section" id="sectionTable">
+
+            <h2 class="section__heading" id="navigationTable">Sekcja tabeli</h2>
+            <p class="paragraph__table">
+                W poniższej tabeli zostały przedstawione najlepsze <strong>Smartfony</strong> z mijającego roku 2023.
+            </p>
+            <table class="table__smartphone">
+                <thead class="table__head">
+                    <caption class="table__caption"><strong>Świetne smatfony</strong></caption>
+                </thead>
+                <tbody class="table__body">
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header"> Marka</th>
+                        <th class="table__cell table__cell--header"> Model</th>
+                        <th class="table__cell table__cell--header"> Rok wydania</th>
+                        <th class="table__cell table__cell--header"> Cena</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" rowspan="3"> Samsung</th>
+                        <td class="table__cell"> S23</td>
+                        <td class="table__cell" rowspan="3"> 17 lutego 2023</td>
+                        <td class="table__cell">3 999 zł</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell"> S23+</td>
+                        <td class="table__cell"> 4 699 zł</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell"> S23 Ultra</td>
+                        <td class="table__cell"> 4 999 zł</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header">Xiaomi</th>
+                        <td class="table__cell">13</td>
+                        <td class="table__cell">26 września 2023</td>
+                        <td class="table__cell">3 299 zł</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header">Realme</th>
+                        <td class="table__cell">11 Pro +</td>
+                        <td class="table__cell">5 października 2023</td>
+                        <td class="table__cell">1 899 zł</td>
+                    </tr>
+                </tbody>
+                <tfoot class="table__foot">
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" colspan="3">Suma</th>
+                        <td class="table__cell">18 895 zł</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+    <footer class="footer" id="sectionContact">
+        <h2 class="footer__heading">Kontakt z autorem strony</h2>
+
+        <div class="footer__contact">
+            <p>Łukasz Duszak</p>
+            <p>nr. tel. 743 832 923</p>
+            <p>adres : Warszawa Pod Wodą</p>
+        </div>
+    </footer>
+</body>
+
+</html>

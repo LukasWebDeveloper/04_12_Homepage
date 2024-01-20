@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+
+
+.body {
+    display: block;
+    width: 80%;
+    font-family: 'Lato';
+    background-color: #fae8c2;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 5px;
+    
+}
+
+.header {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+    top: 0px;
+    background-color: #180c03;
+    padding: 1%;
+}
+
+.header__nameSite {
+    display: block;
+    width: 35%;
+    line-height: 2.5;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ba60339e;
+    color: #b5b4b4;
+    border: 5px solid #ba6033db;
+    border-top: none;
+    border-radius: 0 0 50% 50%;
+}
+
+.header__logo {
+    display: block;
+    position: absolute;
+    height: 40%;
+    top: 1%;
+}
+
+.header__nameSite {
+    text-align: center;
+    line-height: 1.9;
+}
+
+.header__button {
+    display: block;
+    margin: 1% auto;
+    padding: 0.5% 2%;
+
+}
+
+.navigation {
+    display: block;
+    height: 5%;
+    width: 100%;
+    margin-bottom: 0.5%;
+    padding: 1px;
+    text-decoration: none;
+    background-color: #b25f2b;
+}
+
+.navigation__orderlist {
+    list-style-type: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #fafafa;
+}
+
+.navigation__link:visited {
+    color: #4a4a4ae4;
+}
+
+.navigation__link:hover {
+    color: #f7d4b0;
+}
+
+.navigation__link:active {
+    color: #d52405;
+}
+
+.main {
+    background-color: #f4f2f0da; 
+    padding: 1%;
+}
+
+.section__heading {
+    text-align: center;
+    color: #4d321eee;
+    line-height: 1.5;
+}
+
+.pharagraph__authorDescription {
+    line-height: 1.5;
+}
+
+.paragraph__table {
+    line-height: 1.5;
+}
+
+.table__smartphone {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 2%;
+    
+}
+
+.table__caption {
+    line-height: 2;
+    background-color: #dba680;
+}
+
+.table__cell {
+    border: 1px solid black;
+    background-color: #d4cccc;
+    line-height: 35px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.table__cell:hover {
+    background-color: #f8e4db;
+}
+
+.table__cell--header {
+    background-color: #ba6033;
+    color: #efefef;
+}
+.table__row:nth-child(even) {
+    background-color: #ed1717;  
+    z-index: 2;
+}
+
+.table__cell--header:hover {
+    background-color: #ba6033;
+    color: #1f0808;
+}
+
+.footer {
+    display: block;
+    background-color: #180c03;
+    height: 170px;
+    padding: 1%;
+    margin-top: 0.5%;
+}
+
+.footer__heading {
+    display: block;
+    text-align: center;
+    
+    line-height: 1.5;
+    color: #a36c45;
+}
+
+.footer__contact {
+    display:block;
+    height: 100px;
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(79, 36, 11);
+    color: #ffffff;
+}
